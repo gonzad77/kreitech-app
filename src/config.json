@@ -1,0 +1,7 @@
+{ 
+    "client_id": "c565cb1ab5b6405ba031bd9288391226",
+    "client_secret": "6610c591b9534b3caf0c1edf792ba841",
+    "authorize_url": "https://accounts.spotify.com/authorize",
+    "base_url": "https://api.spotify.com/v1",
+    "redirect_url": "http://localhost:3000/"
+}

@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    background-color: #002642;
+    text-align: start;
+    padding: 8px 16px;
+}
+
+.login-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    color: #FFFFFF;
+    transform: translateY(-50%);
+}

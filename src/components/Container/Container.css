@@ -1,0 +1,16 @@
+.buttons {
+    margin: 16px 0;
+    width: 100%;
+}
+.button-footer {
+    margin: 0 16px;
+    background-color: #002642;
+    color: #FFFFFF;
+    padding: 16px;
+    border-radius: 5px;
+    min-width: 90px;
+}
+
+.button-footer:disabled {
+    background-color: #356588;
+}

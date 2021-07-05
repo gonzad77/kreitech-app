@@ -1,5 +1,7 @@
 import React, { createContext, useState } from "react";
 import axios from "axios";
+import config from '../config.json'
+
 export const TrackContext = createContext();
 
 const TrackService = (props) => {
@@ -20,7 +22,7 @@ const TrackService = (props) => {
         setLoading(false);
       } else {
         try {
-          const res = await axios.get(url ? url : `https://api.spotify.com/v1/search?query=${query}&offset=0&limit=12&type=track`, {
+          const res = await axios.get(url ? url : `${config.base_url}search?query=${query}&offset=0&limit=12&type=track`, {
             headers: {
                 'Authorization': `Bearer ${access_token}`
             }

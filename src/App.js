@@ -11,7 +11,6 @@ const App = () => {
   const { saveToken } = useContext(TrackContext);
 
   useEffect(() => {
-    console.log('APP MOUNT')
     saveToken()
   }, [])
 
@@ -20,7 +19,6 @@ const App = () => {
   const handleSubmit = (e, text) => {
     e.preventDefault();
     setSearchText(text)
-    console.log(text);
   };
 
   return (

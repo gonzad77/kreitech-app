@@ -12,7 +12,6 @@ const TrackService = (props) => {
 
     const search = async (query, url) => {
       setLoading(true);
-      console.log(url)
       const access_token = localStorage.getItem('access_token');
       if( !access_token ) {
         alert("Try to get token first");

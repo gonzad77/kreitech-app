@@ -11,7 +11,6 @@ const Container = ({ searchText }) => {
 
     useEffect(() => {
       search(searchText, null);
-      console.log(tracks);
     }, [searchText]);
 
     return <div className="container">
